@@ -1,28 +1,15 @@
 [
-    {
-        "id": "E1KAEGfqcjOLJCsSxSln4qyQEyAXPi1z",
-        "plugin": "backlink-cache",
-        "type": "plugin",
-        "language": "zh-cn",
-        "version": "1.0.0",
-        "supported_versions": "2.14.1",
-        "title": "Backlink Cache",
-        "description": "Backlink Cache Localization & Tweaks",
-        "hash": "74018331740183317401833174018331",
-        "created_at": "2026-07-28T08:17:21.880Z",
-        "updated_at": "2026-07-28T08:17:21.880Z"
-    },
-    {
-        "id": "Fv3_g39A2bs4PEOozjsVj508F6aXF0Bb",
-        "plugin": "smart-connections",
-        "type": "plugin",
-        "language": "zh-cn",
-        "version": "1.0.0",
-        "supported_versions": "4.5.3",
-        "title": "Smart Connections",
-        "description": "Smart Connections Localization & Tweaks",
-        "hash": "26419d6426419d6426419d6426419d64",
-        "created_at": "2026-07-28T08:17:21.882Z",
-        "updated_at": "2026-07-28T08:17:21.882Z"
-    }
+  {
+    "id": "E1KAEGfqcjOLJCsSxSln4qyQEyAXPi1z",
+    "plugin": "backlink-cache",
+    "type": "plugin",
+    "language": "zh-cn",
+    "version": "1.0.0",
+    "supported_versions": "2.14.1",
+    "title": "Backlink Cache",
+    "description": "Backlink Cache Localization & Tweaks",
+    "hash": "74018331740183317401833174018331",
+    "created_at": "2026-07-28T08:17:21.880Z",
+    "updated_at": "2026-07-28T08:17:21.880Z"
+  }
 ]
