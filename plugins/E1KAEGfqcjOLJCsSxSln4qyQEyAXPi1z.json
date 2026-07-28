@@ -1,0 +1,310 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "backlink-cache",
+        "version": "1.0.0",
+        "title": "Backlink Cache",
+        "description": "Backlink Cache Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.14.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ": ",
+                    "target": ": "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "style",
+                    "target": "样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "换行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "progress",
+                    "target": "进度条"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "输入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "pre",
+                    "target": "预格式化文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No Intl support, please use an Intl polyfill!",
+                    "target": "没有 Intl 支持，请使用 Intl polyfill！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error processing item",
+                    "target": "处理项目时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "initialized",
+                    "target": "初始化完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to refresh the backlink panels automatically when a note is saved.",
+                    "target": "当笔记被保存时，是否自动刷新回链面板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Whether to show progress bar on load.",
+                    "target": "加载时是否显示进度条。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Should automatically refresh backlink panels",
+                    "target": "应自动刷新回链面板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Should show progress bar on load",
+                    "target": "加载时显示进度条"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Instance method `debug.destroy()` is deprecated and no longer does anything. It will be removed in the next major version of `debug`.",
+                    "target": "实例方法 `debug.destroy()` 已被弃用，不再执行任何操作。它将在 `debug` 的下一个主版本中被移除。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "accessing an object - but returnObjects options is not enabled!",
+                    "target": "访问一个对象 - 但未启用 returnObjects 选项！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Seems the loaded translations were in flat JSON format instead of nested. Either set keySeparator: false on init or make sure your translations are published in nested format.",
+                    "target": "似乎加载的翻译是平面 JSON 格式而不是嵌套格式。要么在初始化时设置 keySeparator: false，要么确保你的翻译以嵌套格式发布。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "This means something IS WRONG in your setup. You access the t function before i18next.init / i18next.loadNamespace / i18next.changeLanguage was done. Wait for the callback or Promise to resolve before accessing it!!!",
+                    "target": "这意味着你的设置中确实有问题。你在 i18next.init / i18next.loadNamespace / i18next.changeLanguage 完成之前就访问了 t 函数。等待回调或 Promise 解决后再访问它！！！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "nesting options string contains interpolated variables with escapeValue: false — if any of those values are attacker-controlled they can inject additional nesting options (e.g. redirect lng/ns). Sanitise untrusted input before passing it to t(), or keep escapeValue: true.",
+                    "target": "嵌套选项字符串包含带有 escapeValue: false 的插值变量 — 如果这些值中有任何是攻击者控制的，它们可以注入额外的嵌套选项（例如重定向 lng/ns）。在传递给 t() 之前清理不受信任的输入，或保持 escapeValue: true。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "No backend was added via i18next.use. Will not load resources.",
+                    "target": "没有通过 i18next.use 添加后端。将无法加载资源。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: no languageDetector is used and no lng is defined",
+                    "target": "init: 没有使用语言检测器，也没有定义语言。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "init: i18next is already initialized. You should call init just once!",
+                    "target": "init: i18next 已经初始化。你应该只调用一次 init！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18next was not initialized",
+                    "target": "hasLoadedNamespace: i18next 未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "hasLoadedNamespace: i18n.languages were undefined or empty",
+                    "target": "hasLoadedNamespace: i18n.languages 未定义或为空"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "I18N was not initialized, initializing default obsidian-dev-utils translations",
+                    "target": "I18N 未初始化，正在初始化默认的 obsidian-dev-utils 翻译"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[remark-wiki-link] Warning: please upgrade to remark 13 to use this plugin",
+                    "target": "[remark-wiki-link] 警告：请升级到 remark 13 以使用此插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unknown link type",
+                    "target": "未知的链接类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Node not found",
+                    "target": "节点未找到"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Node file is not a string",
+                    "target": "节点文件不是字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Node text is not a string",
+                    "target": "节点文本不是字符串"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Debug mode: intentional placeholder error. See https://github.com/mnaoumov/obsidian-dev-utils/blob/main/docs/debugging.md.",
+                    "target": "调试模式：故意放置的占位符错误。请查看 https://github.com/mnaoumov/obsidian-dev-utils/blob/main/docs/debugging.md。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "retryWithTimeout failed",
+                    "target": "retryWithTimeout 失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Run with timeout failed",
+                    "target": "运行超时失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "loop failed",
+                    "target": "循环失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "attention",
+                    "target": "注意"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "autolink",
+                    "target": "自动链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "definition",
+                    "target": "定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "list",
+                    "target": "列表"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refresh backlink panels",
+                    "target": "刷新反向链接面板"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "复选框"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"No Intl support, please use an Intl polyfill!\")",
+                    "target": "error(\"No Intl support, please use an Intl polyfill!\")"
+                },
+                {
+                    "source": "log(\"languageChanged\",u)):this.isLanguageChangingTo=void 0,r.resolve((...c)=>this.t(...c)),n&&n(l,(...c)=>this.t(...c))},\"done\")",
+                    "target": "log(\"languageChanged\",u)):this.isLanguageChangingTo=void 0,r.resolve((...c)=>this.t(...c)),n&&n(l,(...c)=>this.t(...c))},\"done\")"
+                },
+                {
+                    "source": "appendText(\": \")",
+                    "target": "appendText(\": \")"
+                },
+                {
+                    "source": "appendText(\" \")",
+                    "target": "appendText(\" \")"
+                },
+                {
+                    "source": "error(`Invalid settings from data.json. Expected Object, got: ${typeof n}`)",
+                    "target": "error(`Invalid settings from data.json. Expected Object, got: ${typeof n}`)"
+                },
+                {
+                    "source": "setName(\"Should automatically refresh backlink panels\")",
+                    "target": "setName(\"Should automatically refresh backlink panels\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to refresh the backlink panels automatically when a note is saved.\")",
+                    "target": "setDesc(\"Whether to refresh the backlink panels automatically when a note is saved.\")"
+                },
+                {
+                    "source": "setName(\"Should show progress bar on load\")",
+                    "target": "setName(\"Should show progress bar on load\")"
+                },
+                {
+                    "source": "setDesc(\"Whether to show progress bar on load.\")",
+                    "target": "setDesc(\"Whether to show progress bar on load.\")"
+                },
+                {
+                    "source": "name:\"Handle rename: {{oldPath}} -> {{newPath}}\"",
+                    "target": "name:\"Handle rename: {{oldPath}} -> {{newPath}}\""
+                },
+                {
+                    "source": "name:\"Refresh backlink panels\"",
+                    "target": "name:\"Refresh backlink panels\""
+                }
+            ]
+        }
+    }
+}
